@@ -17,7 +17,7 @@ export default class updateUser {
         `${userUrl}/${userId}`,
         updateData
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }

@@ -17,7 +17,7 @@ export default class getUsers {
         `${userUrl}/${userId}`,
         null
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }
@@ -30,7 +30,7 @@ export default class getUsers {
         `${unknownUrl}/${userId}`,
         null
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }
@@ -43,7 +43,7 @@ export default class getUsers {
         `${userUrl}?page=${pageNumber}`,
         null
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }
@@ -56,7 +56,7 @@ export default class getUsers {
         unknownUrl,
         null
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }

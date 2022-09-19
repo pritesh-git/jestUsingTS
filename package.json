@@ -12,7 +12,7 @@
     "test": "jest -c  ./jest.unit.json",
     "test:coverage": "jest --coverage -c ./jest.unit.json",
     "test:ci": "jest --ci --reporters='default' --reporters='./github-actions-reporter'",
-    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+    "pretty": "prettier --write \"./**/*.{ts,tsx,json}\""
   },
   "keywords": [],
   "author": "",

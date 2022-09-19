@@ -17,7 +17,7 @@ export default class registerUsers {
         registerUrl,
         registerData
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }
@@ -30,7 +30,7 @@ export default class registerUsers {
         userUrl,
         userData
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }

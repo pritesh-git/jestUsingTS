@@ -17,7 +17,7 @@ export default class deleteUser {
         `${userUrl}/${userId}`,
         null
       );
-    } catch (error:any) {
+    } catch (error: any) {
       console.error(`Error occurred in get users: ${error.message}`);
       throw Error(error);
     }

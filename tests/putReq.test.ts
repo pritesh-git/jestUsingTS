@@ -26,6 +26,6 @@ describe("Test For PUT/UPDATE a User", () => {
     const result = await updateUserInstance.updateInfo(userId, updateData);
 
     expect(result.data).toBeInstanceOf(Object);
-    expect(result.data?.updatedAt).toContain('2022') 
-   });
+    expect(result.data?.updatedAt).toContain("2022");
+  });
 });

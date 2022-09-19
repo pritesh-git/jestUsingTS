@@ -3,7 +3,7 @@ const Axios = require("axios");
 async function axiosWrapper(configs: any) {
   try {
     return await Axios(configs);
-  } catch (error:any) {
+  } catch (error: any) {
     if (error.response) {
       return error.response;
     }
@@ -12,7 +12,6 @@ async function axiosWrapper(configs: any) {
 }
 
 export default class RequestManager {
-
   async request(url: string, method: string, payload: any) {
     return axiosWrapper({
       method,
